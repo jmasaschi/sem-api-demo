@@ -11,7 +11,7 @@ export default async function Page() {
   return (
     <ul>
       {sales?.map((sale) => (
-        <li key={sale.id}>{sale.name}</li>
+        <li key={sale.id}>{sale.sales_date}</li>
       ))}
     </ul>
   )
